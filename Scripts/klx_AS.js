@@ -6,10 +6,12 @@
 [rewrite_local]
 
 ^https:\/\/api\.vistopia\.com\.cn\/api url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/klx_AS.js
+^https:\/\/cdn\.vistopia\.com\.cn\/aud url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/klx_AS.js
 
 [mitm] 
 
 hostname = api.vistopia.com.cn
+hostname = cdn.vistopia.com.cn
 
 *******************************/
 
