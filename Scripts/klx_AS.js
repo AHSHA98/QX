@@ -15,6 +15,6 @@ hostname = cdn.vistopia.com.cn
 
 *******************************/
 
-var body = $response.body.replace(/"is_lock":"\d"/g, '"is_lock":"0"').replace(/"vip_type":".*?"/g, '"vip_type":"lixiangjia_trial"').replace(/"unread_messages":".*?"/g, '"unread_messages":"2"').replace(/"vip_expire_date":".*?"/g, '"vip_expire_date":"2099-10-01"').replace(/"vip_left_days":".*?"/g, '"vip_left_days":"1"').replace(/"is_vip_free":".*?"/g,'"is_vip_free":""1"').replace(/"equity_txt":".*?"/g, '"equity_txt":"鸟人专用"').replace(/"expire_time":".*?"/g, '"expire_time":"2099-10-01"').replace(/"vip_valide":".*?"/g, '"vip_valide":"鸟人专用"')
+var body = $response.body.replace(/"is_lock":"\d"/g, '"is_lock":"0"').replace(/"vip_type":".*?"/g, '"vip_type":"lixiangjia_trial"').replace(/"unread_messages":".*?"/g, '"unread_messages":"2"').replace(/"vip_expire_date":".*?"/g, '"vip_expire_date":"2022-10-05"').replace(/"vip_left_days":".*?"/g, '"vip_left_days":"1"').replace(/"equity_txt":".*?"/g, '"equity_txt":"鸟人专用"').replace(/"expire_time":".*?"/g, '"expire_time":"9999-10-01"').replace(/"vip_valide":".*?"/g, '"vip_valide":"鸟人专用"')
 
 $done({ body });
