@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-^https:\/\/api2.mubu.com\/v3\/api\/user/* url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/mubu_AS.js
+^https:\/\/api2.mubu.com\/v3\/api\/user/* url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/mubu.js
 
 [mitm] 
 
