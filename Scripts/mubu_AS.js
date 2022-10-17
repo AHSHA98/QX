@@ -21,10 +21,8 @@ try {
         parse.data.expert = true;
         parse.data.level = 1;
         parse.data.vipEndDate = "99999999";
-        parse.data.name = "彭于晏解锁";
-        parse.data.wxName = "彭于晏解锁";
-        parse.data.name = "AS";
-        parse.data.wxName = "AS";
+//        parse.data.name = "AS";
+//        parse.data.wxName = "AS";
         _0x24b339 = JSON.stringify(parse);
     }
 } catch (exception) {
