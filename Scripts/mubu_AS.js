@@ -13,19 +13,19 @@ hostname = api2.mubu.com
 
 *******************************/
 
-let _0x24b339 = $response['body'];
-console.log(_0x24b339);
+let mubu_as = $response['body'];
+console.log(mubu_as);
 try {
-    let parse = JSON.parse(_0x24b339);
+    let parse = JSON.parse(mubu_as);
     if (parse.code == 0 && parse.data) {
         parse.data.expert = true;
         parse.data.level = 1;
         parse.data.vipEndDate = "99999999";
 //        parse.data.name = "AS";
 //        parse.data.wxName = "AS";
-        _0x24b339 = JSON.stringify(parse);
+        mubu_as = JSON.stringify(parse);
     }
 } catch (exception) {
     console.error(__name, "error", exception.message);
 }
-$done(_0x24b339);
+$done(mubu_as);
