@@ -3,7 +3,7 @@
 使用声明：此脚本仅供学习、测试与交流！
 
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/xzj2_AS.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/xzj_AS.js
 
 [mitm] 
 hostname = buy.itunes.apple.com
