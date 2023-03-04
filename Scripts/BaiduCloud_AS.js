@@ -3,9 +3,9 @@
 ***************************
 QuantumultX:
 [rewrite_local]
-https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/BaiduCloud_AS.js
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/BaiduCloud_AS.js
 
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/BaiduCloud_AS.js
+^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/AHSHA98/QuanX/main/Scripts/BaiduCloud_AS.js
 
 [mitm]
 hostname = pan.baidu.com
